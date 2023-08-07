@@ -1,9 +1,19 @@
-body{
+body main{
     background-color:rgb(42, 45, 64);
 }
-.container-fluid{
-    background-color: rgb(42, 45, 64);
+
+.bg-img img{
+    width: 100%;
 }
-.overlay-bg{
-    background-color: white;
+.foot{
+    background-color: rgb(190, 196, 210);
+}
+.about{
+    background-color:  rgb(190, 196, 210);
+}
+.btn{
+    background-color: rgb(205, 217, 243);
+}
+@media screen and (max-width: 500px) and (min-width: 900px){
+    
 }
