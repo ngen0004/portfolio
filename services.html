@@ -11,8 +11,10 @@
   </head>
   <body>
     <!-- responsive nav with logo -->
-    <header role="banner">        
-        <nav class="navbar navbar-expand-lg bg-body-dark" role="navigation">
+    <header role="banner">
+        <a href="#maincontent" class="text-light">Skip To Content &darr;</a>
+        
+        <nav class="navbar navbar-expand-lg bg-body-dark" role="navigation" id="top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo picture"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +48,7 @@
                 </p>
             </div>
         </div>
-        <div class="row justify-content-center my-4">
+        <div class="row justify-content-center my-4" id="maincontent">
             <div class="serv col col-lg-5 text-center mx-5 my-2">
                 <img src="images/code.png" class="rounded-pill my-2" alt="services picture">
                 <p class="fw-semibold">I provide end-to-end web design.</p>
@@ -67,7 +69,13 @@
         
         <div class="text-center">
             <a class="btn fw-bold my-3" href="contact.html" role="button">Let's work together</a>
-        </div>    
+        </div>
+
+        <div>
+            <a href="#top" class="text-white text-right">
+                <i class="fa-solid fa-arrow-up-long fa-bounce fa-lg"></i>
+            </a>
+        </div>
     </main>
 
     <!-- footer -->

@@ -11,8 +11,10 @@
   </head>
   <body>
     <!-- responsive nav with logo -->
-    <header role="banner">        
-        <nav class="navbar navbar-expand-lg bg-body-dark" role="navigation">
+    <header role="banner">
+        <a href="#maincontent" class="text-light">Skip To Content &darr;</a>
+        
+        <nav class="navbar navbar-expand-lg bg-body-dark" role="navigation" id="top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo picture"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +34,7 @@
 
     <!-- welcome section -->
     <main role="main">    
-        <div class="text-center text-light">
+        <div class="text-center text-light" id="maincontent">
             <h1 role="heading">About Me</h1>        
         </div>
         <div class="aboutme px-4 text-center" >
@@ -54,6 +56,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div>
+            <a href="#top" class="text-white text-right">
+                <i class="fa-solid fa-arrow-up-long fa-bounce fa-lg"></i>
+            </a>
         </div>        
     </main>
 

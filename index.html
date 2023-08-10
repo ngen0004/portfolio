@@ -10,10 +10,12 @@
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
-    
+
     <!-- responsive nav with logo -->
-    <header role="banner">            
-        <nav class="navbar navbar-expand-lg" role="navigation">
+    <header role="banner">
+        <a href="#maincontent" class="text-light">Skip To Content &darr;</a>
+          
+        <nav class="navbar navbar-expand-lg" role="navigation" id="top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo picture"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +46,7 @@
             </div>
         </div>
 
-        <div class="my-3">
+        <div class="my-3"  id="maincontent">
             <h4 class="text-white text-center" role="heading">
                 I like to build solid and scalable frontend web platform with
             </h4>
@@ -56,7 +58,12 @@
               <div class="col"><img src="images/javascript-424_x_221.png" alt="javascript picture" class="my-2"></div>
               <div class="col"><img src="images/bootstrap-424_x_221.png" alt="bootstrap picture" class="my-2"></div>
             </div>               
-        </div>     
+        </div>
+        <div>
+            <a href="#top" class="text-white text-right">
+                <i class="fa-solid fa-arrow-up-long fa-bounce fa-lg"></i>
+            </a>
+        </div>
     </main>
 
     <!--footer -->

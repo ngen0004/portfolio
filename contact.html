@@ -11,8 +11,10 @@
   </head>
   <body>
     <!-- responsive nav with logo -->
-    <header role="banner">        
-        <nav class="navbar navbar-expand-lg bg-body-dark" role="navigation">
+    <header role="banner">
+        <a href="#maincontent" class="text-light">Skip To Content &darr;</a>
+        
+        <nav class="navbar navbar-expand-lg bg-body-dark" role="navigation" id="top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo picture"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +49,7 @@
             </div>
         </div>
 
-        <form action="#" method="get" class="row align-items-center text-light" role="form">
+        <form action="#" method="get" class="row align-items-center text-light" role="form" id="maincontent">
             <div class="col-md-6">                       
                 <label for="firstname" class="form-label">First Name</label>                                              
                 <input id="firstname" type="text" name="firstname" class="form-control">                       
@@ -72,7 +74,13 @@
             <div class="text-center">
                 <button class="btn fw-bold my-3" type="submit">Send</button>
             </div>
-        </form>      
+        </form>
+        
+        <div>
+            <a href="#top" class="text-white text-right">
+                <i class="fa-solid fa-arrow-up-long fa-bounce fa-lg"></i>
+            </a>
+        </div>
     </main>
 
     <!-- footer -->
