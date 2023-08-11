@@ -21,10 +21,9 @@ I used this images from istockphoto to show services that I can provide to custo
 ![html picture](images/maintenance-302_x_201.png)
 
 ### External links resources used
-I used this link in the head section of the html code for properly utilizing the bootstrap framework's styles and functionality in my web portfolio
-- '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">'
+I used a link in the head section of my html codes for properly utilizing the bootstrap framework's styles and functionality in my web portfolio. (the link couldn't be displayed here in the readme file but it's in the head section of every page that I used).
 
-I used this library link to easily apply animations to the elements in my portfolio by adding css classes to them.
-[link](https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css)
+I used the animation library link to easily apply animations to the elements in my portfolio by adding css classes to them. (the link couldn't be display in th readme file, its in head section of all my html pages).
 
-'<script src="https://kit.fontawesome.com/7e3b67895f.js" crossorigin="anonymous"></script>'
+I used this script in the head section to be able display fontawesome icons in the body of my portfolio pages
+<script src="https://kit.fontawesome.com/7e3b67895f.js" crossorigin="anonymous"></script>
