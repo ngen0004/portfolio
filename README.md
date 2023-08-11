@@ -1,3 +1,5 @@
 # portfolio
 Final project repository
-I designed my portfolio
+## List of resources
+### Images
+![background picture](images/front-desktop.jpg)
