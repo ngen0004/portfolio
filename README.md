@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 This platform is my portfolio website as a frontend developer.
 It's a collection of 4 pages designed in html using bootstrap framework and a little bit of css.
