@@ -1,29 +1,33 @@
 # portfolio
-Final project repository
+
 This platform is my portfolio website as a frontend developer.
 It's a collection of 4 pages designed in html using bootstrap framework and a little bit of css.
 I have added some animations on few elements in my website.
 This website can be access on different variety of screen sizes.
 
 The first page as a home page (index.html):
+
     - a navigation section in the header with my logo
     - a background image with my welcome text
     - a list of language and libraries that I use to build websites
     - and a footer section with copyright and icons to my social media accounts
 
 The second page is about me (about.html):
+
     - a navigation section in the header with my logo
     - my profile picture and a paragraph of how I feel about my passion
     - a link to my resume file
     - a footer section
 
 The third page is services (services.html):
+
     - a navigation section in the header with my logo
     - different services that I offer to people
     - a link to connect to talk more about projects
     - a footer section
 
 The fourth page is contact (contact.html):
+
     - a navigation section in the header with my logo
     - a form to fill to share your feedback or asking different queries
     - a footer section
