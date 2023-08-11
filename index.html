@@ -36,7 +36,23 @@
     <!-- welcome section -->
     <main role="main">        
         <div class="bg-img position-relative">
-            <img src="images/front-mobile.jpg" class="object-fit-sm-contain" alt="background picture">
+            <picture>
+                <source srcset="images/front-desktop-480_x_480.jpg 480w,
+                              images/front-desktop-640_x_640.jpg 640w"
+                        media="(min-width: 700px)"
+                        sizes="(max-width: 480px) 480px,
+                            (max-width: 640px) 640px" />
+             
+                <source srcset="images/front-desktop-320_x_180.jpg 320w,
+                                images/front-desktop-750_x_550.jpg 750w"
+                        media="(max-width: 750px)"
+                        sizes="(max-width: 320px) 320px,
+                            (max-width: 750px) 750px" />
+            
+                <img class="orig-img"
+                     src="images/front-desktop.jpg"
+                     alt="background picture" >
+            </picture>
             <div class="position-absolute bottom-50 text-light mx-2">
                 <h1 role="heading" class="animate__animated animate__wobble">
                     Hi, I'm Gilbert Ngendahimana
